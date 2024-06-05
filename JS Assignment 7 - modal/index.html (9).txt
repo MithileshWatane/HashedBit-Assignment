@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Button trigger modal -->
+    <button id="openModalBtn" type="button">
+        Launch modal
+    </button>
+  
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span   class="close closeBtns">&times;</span>
+            <div class="modal-header">
+                <h5 id="modalTitle">Modal title </h5>
+            </div>
+            <hr>
+            <div class="modal-body">
+                Woohoo, you're reading this text in a modal!
+
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <button id="closeModalBtn" class="btn btn-secondary closeBtns">Close</button>
+                <button id="saveBtn" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Script.js">
+      
+    </script>
+</body>
+</html>
